@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "mk-relay-socket-14")(type "KiCad")(uri "${KIPRJMOD}/odd-parts/mk_relay_socket/symbol/PY14-02.kicad_sym")(options "")(descr "PY14-02 relay socket MK"))
-  (lib (name "usbc")(type "KiCad")(uri "${KIPRJMOD}/odd-parts/usbc/.kicad_sym")(options "")(descr ""))
-  (lib (name "usbc_16")(type "KiCad")(uri "${KIPRJMOD}/odd-parts/usbc/usbc_16.kicad_sym")(options "")(descr ""))
-)

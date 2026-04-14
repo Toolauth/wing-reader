@@ -1,0 +1,307 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "586efc0f-7de2-49a7-ac21-ecfef2f716d6")
+	(paper "USLetter")
+	(title_block
+		(title "ToolAuth Hardware | Overview | ESP32-DEVKITC-V4")
+		(date "2025-11-02")
+		(rev "1.4.3")
+		(company "Corey Rice & MakeHaven")
+		(comment 1 "Highest Level Overview")
+	)
+	(lib_symbols)
+	(text "Toolauth | Wing-Reader"
+		(exclude_from_sim no)
+		(at 22.86 36.83 0)
+		(effects
+			(font
+				(size 10 10)
+				(thickness 2)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "263a917f-5785-48e0-993a-40dec48716de")
+	)
+	(text "This shows a component to represent the \nOlimex POE Board.\n"
+		(exclude_from_sim no)
+		(at 177.292 102.108 0)
+		(effects
+			(font
+				(size 1.75 1.75)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d3e8d86-9969-4d55-bca7-b51955568ad4")
+	)
+	(text "This is a collection of the simple circuits \nthat translate between voltage levels, break \nout the programming buttons for the Feather, \ncontrol the buzzer, and control the indicator \nLEDs. Many of these circuits use a mix of 3.3v\nand 5 volts to be as bright/loud as possible.\n"
+		(exclude_from_sim no)
+		(at 62.484 171.196 0)
+		(effects
+			(font
+				(size 1.75 1.75)
+			)
+			(justify left bottom)
+		)
+		(uuid "539e4f8e-e1f4-480d-8110-023df9c197ee")
+	)
+	(text "Feather Core"
+		(exclude_from_sim no)
+		(at 38.1 93.98 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "622c2c18-5521-4548-9008-6e617bd463fe")
+	)
+	(text "These are the connections for I2C, SPI, and \nthe Feather headers. There is also a 3.3V \nlinear regulator to power these daughter \nboards, without placing more draw on the \nFeather's onboard linear regulator (this \nincludes powering the ADE7953)."
+		(exclude_from_sim no)
+		(at 65.278 200.152 0)
+		(effects
+			(font
+				(size 1.75 1.75)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bec87f9-1993-4ea9-a2f1-fd00a9c8ea5d")
+	)
+	(text "Lights, Sounds & Status"
+		(exclude_from_sim no)
+		(at 33.02 151.13 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "826efca0-440d-4e6e-becc-21b429a40c50")
+	)
+	(text "This shows a component to represent the \nAdafruit Feather board, as it will be \nseated in place. However, the component \nitself is not included on the circuit \nboard, instead seating into some breakout \nheaders for easy replacement. This page \nis for reference only, not design.\n----\nExperience implementing things like this on \nnetworks has taught us that it can be handy\nto be able to get a new device/MAC address \nwithout needing to rewire the entire 'box'\nthat connects to the tool."
+		(exclude_from_sim no)
+		(at 70.612 132.842 0)
+		(effects
+			(font
+				(size 1.75 1.75)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c75586b-2c96-44bc-acc9-6f72cccbf206")
+	)
+	(text "Part of the Toolauth Project: https://github.com/Toolauth/\n\nThis device is intended to help simplify the process of setting up and managing tool authorization \ncontrol, in a shared workshop environment. \n\nSpecifically, this is designed for use at MakeHaven, in New Haven, Connecticut, USA from a previous\nsolution. The circuit board shown here includes a place for an Adafruit Feather ESP32 microcontroller \n(with wifi) to sit into place, and manage the functions of the board and ultimately control access \nto power a tool. This schematic is broken into several pages to better clarify the circuit.\n"
+		(exclude_from_sim no)
+		(at 36.068 79.502 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+			(href "https://github.com/Toolauth/")
+		)
+		(uuid "b6c06f01-68a4-445d-9847-bc7bc38fecfe")
+	)
+	(text "Breakout Board Connections"
+		(exclude_from_sim no)
+		(at 33.02 181.61 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0e4a0c3-b4e7-4b73-8a44-b5fc7ad3a0fc")
+	)
+	(text "Olimex POE Core"
+		(exclude_from_sim no)
+		(at 139.7 95.25 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbd1f350-e4c5-4429-a6b6-5a6ec1b0cb6f")
+	)
+	(sheet
+		(at 34.29 184.15)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "506d3b2e-db67-49ef-9dc7-436bf52560b8")
+		(property "Sheetname" "Breakout Connectors"
+			(at 34.29 183.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "breakoutconnect.kicad_sch"
+			(at 34.29 198.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wing-combo"
+				(path "/586efc0f-7de2-49a7-ac21-ecfef2f716d6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 154.94)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a9b64ffa-3616-454e-ac13-8aa038bd93ff")
+		(property "Sheetname" "Lights Sounds Status"
+			(at 34.29 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lightoundstatus.kicad_sch"
+			(at 34.29 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wing-combo"
+				(path "/586efc0f-7de2-49a7-ac21-ecfef2f716d6"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 97.79)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e38685ed-c36f-4633-b675-11c78e6d84af")
+		(property "Sheetname" "Feather Core"
+			(at 39.37 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "feathercore.kicad_sch"
+			(at 39.37 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wing-combo"
+				(path "/586efc0f-7de2-49a7-ac21-ecfef2f716d6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 99.06)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e41593bc-bf10-4b01-8ab1-2f9c964173ca")
+		(property "Sheetname" "Olimex POE Core"
+			(at 143.51 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "olimexpoecore.kicad_sch"
+			(at 143.51 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wing-combo"
+				(path "/586efc0f-7de2-49a7-ac21-ecfef2f716d6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
