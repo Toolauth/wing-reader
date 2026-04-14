@@ -32,9 +32,9 @@ jobs:
       - name: Zip Source Files
         run: |
           zip -r "source-files-${{ github.ref_name }}.zip" \
-          wing-combo.kicad_pro \
+          wing-reader.kicad_pro \
           *.kicad_sch \
-          wing-combo.kicad_pcb \
+          wing-reader.kicad_pcb \
           *.kicad_sym \
           *.kicad_mod \
           fp-lib-table \
