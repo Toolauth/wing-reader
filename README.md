@@ -1,7 +1,7 @@
 # Card Reader Board
 This is a **derivative board** for the [Toolauth](https://github.com/Toolauth) project.  More information about use, setup, and firmware is available in [this repo's wiki](https://github.com/Toolauth/wing-reader/wiki).
 
-![Combined use circuit board, front and back](/docs/img/offset-rt-both.png)
+![Reader circuit board, front and back](/docs/img/offset-rt-both.png)
 
 It can allow for reading RFID cards and serve as the gateway for user authorization in a shared workshop.
 
